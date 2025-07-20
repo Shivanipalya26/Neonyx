@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Neonyx
 
-## Getting Started
+**Neonyx** is a sleek, terminal-styled chat interface built for AI interactions. It offers a fast, minimal UI with a modern dark aesthetic, designed for developers and power users. Neonyx supports markdown rendering, keyboard shortcuts, and multiple AI models, providing a developer-friendly and responsive experience.
 
-First, run the development server:
+Live Demo: [https://neonyx.shivanipalya.tech/](https://neonyx.shivanipalya.tech/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🎨 Terminal-style dark theme UI
+- 🤖 Supports multiple AI models:
+  - **LLaMA 3.3 70B** (via Groq)
+  - **Gemini 2.5 Flash** (via Google)
+- 💾 Chat history saved locally 
+- 📄 Markdown + code syntax highlighting
+- 🧠 Real-time AI response streaming
+- ⌨️ Keyboard shortcuts for fast navigation (e.g., `Ctrl+K`, `Ctrl+/`)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧰 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand 
+- **APIs**: Groq & Google AI APIs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+MIT – free to use, modify, and distribute.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">Try it out and have fun 💫</p>
